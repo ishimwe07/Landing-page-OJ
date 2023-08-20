@@ -551,12 +551,12 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .flex {
@@ -587,8 +587,8 @@ video {
   width: 10rem;
 }
 
-.w-72 {
-  width: 18rem;
+.w-56 {
+  width: 14rem;
 }
 
 .w-full {
@@ -607,16 +607,16 @@ video {
   gap: 4rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-24 {
   gap: 6rem;
 }
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .rounded-full {
@@ -658,6 +658,10 @@ video {
 
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .font-railwayBold {
@@ -746,16 +750,24 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:mt-64 {
-    margin-top: 16rem;
-  }
-
   .sm\:mt-10 {
     margin-top: 2.5rem;
   }
 
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .sm\:mt-64 {
+    margin-top: 16rem;
+  }
+
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:w-72 {
+    width: 18rem;
   }
 
   .sm\:gap-10 {
@@ -766,9 +778,28 @@ video {
     gap: 7rem;
   }
 
+  .sm\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .sm\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
