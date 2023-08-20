@@ -575,20 +575,16 @@ video {
   height: 0.25rem;
 }
 
-.h-12 {
-  height: 3rem;
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-32 {
   height: 8rem;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.w-40 {
-  width: 10rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-56 {
@@ -597,18 +593,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .items-center {
@@ -678,6 +662,10 @@ video {
 
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .font-railwayBold {
@@ -786,12 +774,12 @@ video {
     height: 3rem;
   }
 
-  .sm\:w-72 {
-    width: 18rem;
-  }
-
   .sm\:w-40 {
     width: 10rem;
+  }
+
+  .sm\:w-72 {
+    width: 18rem;
   }
 
   .sm\:gap-10 {
@@ -813,6 +801,10 @@ video {
   .sm\:px-7 {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+  }
+
+  .sm\:pt-0 {
+    padding-top: 0px;
   }
 
   .sm\:text-3xl {
