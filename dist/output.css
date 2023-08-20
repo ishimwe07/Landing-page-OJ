@@ -602,20 +602,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-16 {
   gap: 4rem;
 }
 
 .gap-24 {
   gap: 6rem;
-}
-
-.gap-28 {
-  gap: 7rem;
 }
 
 .gap-4 {
@@ -755,6 +747,18 @@ video {
 @media (min-width: 640px) {
   .sm\:mt-64 {
     margin-top: 16rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .sm\:gap-28 {
+    gap: 7rem;
   }
 
   .sm\:text-3xl {
