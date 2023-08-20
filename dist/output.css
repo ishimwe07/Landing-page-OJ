@@ -750,6 +750,10 @@ video {
     margin-top: 16rem;
   }
 
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
